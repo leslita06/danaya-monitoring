@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Monitoring des transactions | Danaya</title>
+<meta name="description" content="Danaya lance le monitoring des transactions : détectez, priorisez et documentez les opérations atypiques ou suspectes, du virement au mobile money, dans le cadre LCB-FT de l'UEMOA.">
+<link rel="icon" href="https://www.danaya.africa/brand/danaya-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="draft">Maquette de travail, en attente de validation par Danaya</div>
+<header class="hero">
+<nav class="nav"><div class="wrap">
+  <a href="https://www.danaya.africa/" aria-label="Danaya, accueil"><img src="https://www.danaya.africa/brand/danaya-logo-blanc.svg" alt="Danaya"></a>
+  <div class="menu"><a class="link" href="#comment">Comment ça marche</a><a class="link" href="#ia">Règles et IA</a><a class="link" href="#faq">Questions</a><a class="btn btn-o" style="margin-left:26px;padding:10px 18px;font-size:14px" href="#contact">Être informé</a></div>
+</div></nav>
+<div class="wrap hero-in">
+  <div>
+    <div class="badge"><i></i>Nouveau module · Monitoring des transactions</div>
+    <h1>Repérez l'opération suspecte <em>avant qu'elle ne devienne votre problème.</em></h1>
+    <p class="lead">Après le KYC, le KYB et le screening AML, Danaya surveille vos transactions. Détectez, priorisez et documentez les opérations atypiques ou suspectes, et préparez les éléments attendus par la CENTIF et la Commission Bancaire de l'UMOA.</p>
+    <div class="cta-row">
+      <a class="btn btn-o" href="#contact">Être parmi les premiers →</a>
+      <a class="btn btn-g" href="#comment">Voir comment ça marche</a>
+    </div>
+    <div class="flows"><span>Virements</span><span>Chèques</span><span>Mobile money</span><span>Opérations d'agents</span><span>Espèces</span><span>Transferts internationaux</span></div>
+  </div>
+  <div style="position:relative">
+    <div class="card-alert" role="img" aria-label="Exemple d'alerte expliquée">
+      <div class="tag"><span>Alerte · Mobile money</span><span>il y a 3 min</span></div>
+      <h3>Fractionnement de dépôts chez un agent</h3>
+      <div class="sub">Compte client ••• 4821 · rattaché à son dossier KYC</div>
+      <div class="score"><b>82</b><div><small>Score de priorité</small><div class="bar"><i></i></div></div></div>
+      <ul class="why">
+        <li>Règle déclenchée : série de dépôts juste sous le seuil, sur une fenêtre courte</li>
+        <li>Écart au profil habituel du client sur le mois</li>
+        <li>Contrepartie déjà signalée par le screening</li>
+      </ul>
+      <div class="foot"><span class="o">Ouvrir le dossier</span><span>Affecter à un analyste</span></div>
+    </div>
+    <div class="illu">Illustration, données fictives</div>
+  </div>
+</div>
+</header>
+<section class="why-sec">
+<div class="wrap stat-grid">
+  <div class="big">
+    <b>97 %</b>
+    <p>des pays africains ayant répondu à l'enquête INTERPOL signalent la fraude au mobile money, l'escroquerie en ligne la plus répandue du continent.</p>
+    <small>Source : <a href="https://www.interpol.int/en/content/download/24663/file/INTERPOL%20AFRICAN%20CYBERTHREAT%20ASSESSMENT%20REPORT%202026.pdf" target="_blank" rel="noopener">INTERPOL, African Cyberthreat Assessment Report 2026</a>, juin 2026, 36 pays répondants, données 2025.</small>
+  </div>
+  <div>
+    <div class="eyebrow">Pourquoi maintenant</div>
+    <h2 style="font-size:clamp(26px,3vw,36px);margin:12px 0 26px;color:var(--navy-dk)">Un client vérifié à l'entrée peut encore faire passer des opérations suspectes.</h2>
+    <ul class="pains">
+      <li><h3>Des flux que les outils importés ne lisent pas</h3><p>Ici, l'argent circule par virement, chèque, mobile money, espèces et réseaux d'agents. Le monitoring doit tout couvrir, avec un seul modèle de données.</p></li>
+      <li><h3>Trop d'alertes, pas assez d'explications</h3><p>Une alerte qu'on ne sait pas justifier coûte du temps à l'analyste, et des points en inspection.</p></li>
+      <li><h3>Un superviseur qui demande des preuves</h3><p>Paramétrage, traitement des alertes, classements sans suite : tout doit pouvoir se montrer.</p></li>
+    </ul>
+  </div>
+</div>
+</section>
+<section id="comment">
+<div class="wrap">
+  <div class="head center"><div class="eyebrow">Comment ça marche</div><h2>De la transaction brute à la déclaration de soupçon</h2><p>Le module s'ajoute à la plateforme Danaya que vous utilisez déjà : vos clients, leurs vérifications KYC et leur screening sont déjà là.</p></div>
+  <div class="steps">
+    <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg></div><h3>Envoyez vos transactions</h3><p>Par fichier ou par API. Elles sont validées, normalisées, dédoublonnées et rattachées aux clients et contreparties déjà connus.</p></div>
+    <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h6"/><circle cx="18" cy="16" r="3"/></svg></div><h3>Appliquez vos scénarios</h3><p>Seuils, fenêtres de temps, segments, exceptions : chaque scénario se configure pour votre institution, sans écrire de code.</p></div>
+    <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg></div><h3>Traitez les alertes</h3><p>Regroupées, priorisées, affectées à un analyste, suivies jusqu'à la clôture ou à la déclaration de soupçon.</p></div>
+    <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></div><h3>Rendez des comptes</h3><p>Éléments de déclaration au format attendu par la CENTIF, reporting périodique et piste d'audit non modifiable.</p></div>
+  </div>
+</div>
+</section>
+<section class="feat">
+<div class="wrap">
+  <div class="head"><div class="eyebrow">Ce que vous obtenez</div><h2>Un monitoring pensé pour l'UEMOA, configurable client par client</h2></div>
+  <div class="fgrid">
+    <div class="f hl"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></div><h3>Chaque alerte s'explique</h3><p>Règle déclenchée, données en cause, score et raisons du score, décisions prises et par qui. De quoi tenir face à un inspecteur.</p></div>
+    <div class="f"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Testez avant d'activer</h3><p>Rejouez un nouveau scénario sur votre historique pour mesurer le volume d'alertes qu'il produirait, avant sa mise en production.</p></div>
+    <div class="f"><div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg></div><h3>Le dossier complet en un écran</h3><p>Transactions en cause, historique du client, résultats KYC et screening, commentaires et pièces, au même endroit.</p></div>
+    <div class="f"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg></div><h3>Profils et comportements</h3><p>Volumes, fréquences, contreparties et pays, calculés par client, compte et agent, au jour, à la semaine et au mois.</p></div>
+    <div class="f"><div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>Vos données restent les vôtres</h3><p>Données cloisonnées par client, chiffrement des données sensibles, rôles et droits gérés finement.</p></div>
+    <div class="f"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></div><h3>Une seule plateforme</h3><p>Entrée en relation, re-screening et monitoring des transactions : la vigilance client tient dans le même outil.</p></div>
+  </div>
+</div>
+</section>
+<section class="ai" id="ia">
+<div class="wrap">
+  <div class="head center"><div class="eyebrow" style="color:var(--orange)">Règles et intelligence artificielle</div><h2>Des règles que vous maîtrisez, une IA qui vous fait gagner du temps</h2><p>Le socle est fait de règles explicites, configurables et auditables. L'intelligence artificielle s'y ajoute là où elle apporte un bénéfice mesurable.</p></div>
+  <div class="ai-grid">
+    <div class="col r"><div class="eyebrow">Le socle de règles</div><h3>Ce que vous décidez</h3><ul><li>Scénarios par canal et par catégorie de clients</li><li>Seuils, fenêtres, segments et exceptions</li><li>Versions conservées, mises en production tracées</li><li>Le dernier mot là où la réglementation l'exige</li></ul></div>
+    <div class="col i"><div class="eyebrow">La couche d'IA</div><h3>Ce qu'elle accélère</h3><ul><li>Scoring et priorisation des alertes</li><li>Détection d'anomalies sur un compte ou un agent</li><li>Résumé du dossier pour l'analyste</li><li>Apprentissage à partir des décisions de vos analystes</li></ul></div>
+  </div>
+  <p class="rule">L'IA assiste vos équipes. <em>La décision reste humaine.</em></p>
+</div>
+</section>
+<section>
+<div class="wrap">
+  <div class="head center"><div class="eyebrow">Pour qui</div><h2>Pour les institutions soumises aux obligations LCB-FT</h2></div>
+  <div class="who-grid">
+    <div class="who"><h3>Banques</h3><p>Virements, chèques, espèces et transferts internationaux sous une même surveillance.</p></div>
+    <div class="who"><h3>Microfinances</h3><p>Des scénarios adaptés à votre catégorie d'institution et à vos volumes.</p></div>
+    <div class="who"><h3>Monnaie électronique</h3><p>Portefeuilles, dépôts et retraits chez les agents, transferts : le mobile money suivi de près.</p></div>
+    <div class="who"><h3>Fintechs</h3><p>Un monitoring branché par API, qui grandit avec votre activité.</p></div>
+  </div>
+  <div class="trust"><span><b>8 pays</b> de l'UEMOA</span><span>·</span><span>Données personnelles <b>conformes ARTCI</b></span><span>·</span><span>Piste d'audit <b>horodatée</b></span><span>·</span><span>Équipe à <b>Abidjan</b></span></div>
+</div>
+</section>
+<section class="faq" id="faq">
+<div class="wrap">
+  <div class="head center"><div class="eyebrow">Questions</div><h2>Vos questions, nos réponses</h2></div>
+  <div class="faq-list">
+    <details><summary>Quels flux le module surveille-t-il ?</summary><p>Virements, chèques, mobile money (portefeuilles, dépôts et retraits chez les agents, transferts), espèces et transferts internationaux, dans un modèle de données commun.</p></details>
+    <details><summary>Comment envoie-t-on les transactions ?</summary><p>Par fichier ou par API. Les transactions sont validées, normalisées et dédoublonnées, puis rattachées aux clients déjà vérifiés dans Danaya.</p></details>
+    <details><summary>Faut-il un développeur pour créer un scénario ?</summary><p>Non. Un scénario se crée, se paramètre, se teste sur l'historique et s'active depuis l'interface, par vos équipes ou par Danaya pour vous.</p></details>
+    <details><summary>L'intelligence artificielle décide-t-elle à ma place ?</summary><p>Non. Elle priorise les alertes et aide l'analyste, chaque score est expliqué, et la décision finale reste entre les mains de vos équipes.</p></details>
+    <details><summary>Le module aide-t-il pour la déclaration de soupçon ?</summary><p>Oui. Il prépare les éléments de la déclaration au format attendu par la CENTIF, ainsi que le reporting périodique.</p></details>
+    <details><summary>Que verra un inspecteur ?</summary><p>Une piste d'audit non modifiable : qui a fait quoi, quand et pourquoi, pour chaque alerte, chaque décision et chaque changement de scénario.</p></details>
+  </div>
+</div>
+</section>
+<section class="cta" id="contact">
+<div class="wrap">
+  <div>
+    <div class="eyebrow">Lancement</div>
+    <h2>Soyez parmi les premiers à surveiller vos transactions avec Danaya.</h2>
+    <p>Laissez vos coordonnées : un expert conformité vous recontacte pour vous présenter le module et voir comment il s'adapte à vos flux.</p>
+    <ul><li>Présentation adaptée à votre catégorie d'institution</li><li>Échange sur vos flux et vos scénarios actuels</li></ul>
+    <a class="wa" href="https://wa.me/2250700788342?text=Bonjour%20Danaya%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20le%20monitoring%20des%20transactions." target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>Écrire sur WhatsApp</a>
+  </div>
+  <form id="f" novalidate>
+    <h3>Être informé du lancement</h3>
+    <p class="note">Tous les champs sont nécessaires pour vous recontacter.</p>
+    <div class="row"><div><label for="n">Nom complet</label><input id="n" required placeholder="Votre nom"></div><div><label for="s">Société</label><input id="s" required placeholder="Votre institution"></div></div>
+    <div class="row"><div><label for="e">Email professionnel</label><input id="e" type="email" required placeholder="vous@societe.com"></div><div><label for="t">Téléphone</label><input id="t" required placeholder="+225 ..."></div></div>
+    <label for="c">Catégorie d'institution</label>
+    <select id="c" required><option value="">Choisir…</option><option>Banque</option><option>Microfinance</option><option>Établissement de monnaie électronique</option><option>Fintech</option><option>Assurance</option><option>Autre</option></select>
+    <label for="m">Vos flux et volumes (facultatif)</label>
+    <textarea id="m" placeholder="Ex. mobile money et virements, réseau d'agents…"></textarea>
+    <button class="btn btn-o" type="submit">Je veux être informé →</button>
+    <div class="ok" id="ok">Merci. Votre messagerie s'ouvre avec votre demande prête à partir vers contact@danaya.africa.</div>
+  </form>
+</div>
+</section>
+<footer>
+<div class="wrap">
+  <div class="fgrid2">
+    <div>
+      <img src="https://www.danaya.africa/brand/danaya-logo-blanc.svg" alt="Danaya">
+      <p>Permettre aux entreprises d'identifier leurs clients, en toute confiance, en Afrique francophone.</p>
+      <div class="soc">
+        <a href="https://www.linkedin.com/company/danayacompliance/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+        <a href="https://www.instagram.com/danaya.africa/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3.1 0-4.1.1C4.4 2.2 2.2 4.4 2.1 7.9 2 8.9 2 9.3 2 12s0 3.1.1 4.1c.1 3.5 2.3 5.7 5.8 5.8 1 .1 1.4.1 4.1.1s3.1 0 4.1-.1c3.5-.1 5.7-2.3 5.8-5.8.1-1 .1-1.4.1-4.1s0-3.1-.1-4.1c-.1-3.5-2.3-5.7-5.8-5.8C15.1 2 14.7 2 12 2z"/></svg></a>
+        <a href="https://www.facebook.com/profile.php?id=61561444898029" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l1-4h-4V8.6c0-.4.3-.6.7-.6z"/></svg></a>
+      </div>
+    </div>
+    <div><h4>Plateforme</h4><a href="https://www.danaya.africa/solutions/verification-identite/">Vérification d'identité</a><a href="https://www.danaya.africa/solutions/verification-entreprise/">Vérification d'entreprise</a><a href="https://www.danaya.africa/solutions/screening-aml/">Screening AML</a><a href="https://www.danaya.africa/solutions/face-match/">Face-match</a></div>
+    <div><h4>Entreprise</h4><a href="https://www.danaya.africa/secteurs/">Secteurs</a><a href="https://www.danaya.africa/securite/">Sécurité</a><a href="https://www.danaya.africa/a-propos/">À propos</a><a href="https://www.danaya.africa/blog/">Blog</a></div>
+    <div><h4>Contact</h4><a href="mailto:contact@danaya.africa">contact@danaya.africa</a><a href="tel:+2250700788342">+225 07 00 78 83 42</a><a href="https://www.danaya.africa/contact/">Abidjan, Côte d'Ivoire</a></div>
+  </div>
+  <div class="legal"><span>© 2026 Danaya, Abidjan, Côte d'Ivoire · <a href="https://www.danaya.africa/privacy/">Politique de confidentialité</a></span><span>Photo : Le Plateau depuis le pont Alassane Ouattara, Edison McCullen, <a href="https://commons.wikimedia.org/wiki/File:Le_Plateau_depuis_le_Pont_ADO_%E2%80%93_Abidjan.jpg" target="_blank" rel="noopener">CC BY 4.0</a></span></div>
+</div>
+</footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){
+ev.preventDefault();
+var f=this,ok=true;
+f.querySelectorAll('[required]').forEach(function(el){if(!el.value.trim()){el.style.borderColor='#d33';ok=false}else{el.style.borderColor=''}});
+if(!ok)return;
+var v=function(id){return document.getElementById(id).value.trim()};
+var body='Nom : '+v('n')+'\nSociété : '+v('s')+'\nEmail : '+v('e')+'\nTéléphone : '+v('t')+'\nCatégorie : '+v('c')+'\n\n'+v('m');
+window.location.href='mailto:contact@danaya.africa?subject='+encodeURIComponent('Monitoring des transactions : demande d\'information')+'&body='+encodeURIComponent(body);
+document.getElementById('ok').style.display='block';
+});
+</script>
+</body>
+</html>
